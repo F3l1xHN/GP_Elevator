@@ -1,0 +1,12 @@
+C:\Users\felix\source\repos\Elevator\Elevator.Persistence\bin\Debug\net8.0\Elevator.Persistence.deps.json
+C:\Users\felix\source\repos\Elevator\Elevator.Persistence\bin\Debug\net8.0\Elevator.Persistence.dll
+C:\Users\felix\source\repos\Elevator\Elevator.Persistence\bin\Debug\net8.0\Elevator.Persistence.pdb
+C:\Users\felix\source\repos\Elevator\Elevator.Persistence\obj\Debug\net8.0\Elevator.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felix\source\repos\Elevator\Elevator.Persistence\obj\Debug\net8.0\Elevator.Persistence.AssemblyInfoInputs.cache
+C:\Users\felix\source\repos\Elevator\Elevator.Persistence\obj\Debug\net8.0\Elevator.Persistence.AssemblyInfo.cs
+C:\Users\felix\source\repos\Elevator\Elevator.Persistence\obj\Debug\net8.0\Elevator.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\felix\source\repos\Elevator\Elevator.Persistence\obj\Debug\net8.0\Elevator.Persistence.sourcelink.json
+C:\Users\felix\source\repos\Elevator\Elevator.Persistence\obj\Debug\net8.0\Elevator.Persistence.dll
+C:\Users\felix\source\repos\Elevator\Elevator.Persistence\obj\Debug\net8.0\refint\Elevator.Persistence.dll
+C:\Users\felix\source\repos\Elevator\Elevator.Persistence\obj\Debug\net8.0\Elevator.Persistence.pdb
+C:\Users\felix\source\repos\Elevator\Elevator.Persistence\obj\Debug\net8.0\ref\Elevator.Persistence.dll

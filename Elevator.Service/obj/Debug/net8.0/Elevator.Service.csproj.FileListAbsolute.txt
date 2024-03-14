@@ -1,0 +1,16 @@
+C:\Users\felix\source\repos\Elevator\Elevator.Service\bin\Debug\net8.0\Elevator.Service.deps.json
+C:\Users\felix\source\repos\Elevator\Elevator.Service\bin\Debug\net8.0\Elevator.Service.dll
+C:\Users\felix\source\repos\Elevator\Elevator.Service\bin\Debug\net8.0\Elevator.Service.pdb
+C:\Users\felix\source\repos\Elevator\Elevator.Service\bin\Debug\net8.0\Elevator.Model.dll
+C:\Users\felix\source\repos\Elevator\Elevator.Service\bin\Debug\net8.0\Elevator.Model.pdb
+C:\Users\felix\source\repos\Elevator\Elevator.Service\obj\Debug\net8.0\Elevator.Service.csproj.AssemblyReference.cache
+C:\Users\felix\source\repos\Elevator\Elevator.Service\obj\Debug\net8.0\Elevator.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felix\source\repos\Elevator\Elevator.Service\obj\Debug\net8.0\Elevator.Service.AssemblyInfoInputs.cache
+C:\Users\felix\source\repos\Elevator\Elevator.Service\obj\Debug\net8.0\Elevator.Service.AssemblyInfo.cs
+C:\Users\felix\source\repos\Elevator\Elevator.Service\obj\Debug\net8.0\Elevator.Service.csproj.CoreCompileInputs.cache
+C:\Users\felix\source\repos\Elevator\Elevator.Service\obj\Debug\net8.0\Elevator.Service.sourcelink.json
+C:\Users\felix\source\repos\Elevator\Elevator.Service\obj\Debug\net8.0\Elevator.Service.csproj.CopyComplete
+C:\Users\felix\source\repos\Elevator\Elevator.Service\obj\Debug\net8.0\Elevator.Service.dll
+C:\Users\felix\source\repos\Elevator\Elevator.Service\obj\Debug\net8.0\refint\Elevator.Service.dll
+C:\Users\felix\source\repos\Elevator\Elevator.Service\obj\Debug\net8.0\Elevator.Service.pdb
+C:\Users\felix\source\repos\Elevator\Elevator.Service\obj\Debug\net8.0\ref\Elevator.Service.dll

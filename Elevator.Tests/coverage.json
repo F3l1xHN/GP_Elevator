@@ -1,0 +1,357 @@
+{
+  "Elevator.Model.dll": {
+    "C:\\Users\\felix\\source\\repos\\Elevator\\Elevator.Model\\Entities\\ControlPanel.cs": {
+      "Elevator.Model.Entities.ControlPanel": {
+        "System.Int32 Elevator.Model.Entities.ControlPanel::get_CurrentElevatorPosition()": {
+          "Lines": {
+            "5": 163
+          },
+          "Branches": []
+        },
+        "System.Int32 Elevator.Model.Entities.ControlPanel::get_TargetFloor()": {
+          "Lines": {
+            "6": 93
+          },
+          "Branches": []
+        },
+        "Elevator.Model.Entities.Direction Elevator.Model.Entities.ControlPanel::get_ElevatorDirectionMovement()": {
+          "Lines": {
+            "7": 37
+          },
+          "Branches": []
+        },
+        "Elevator.Model.IElevator Elevator.Model.Entities.ControlPanel::get_Elevator()": {
+          "Lines": {
+            "8": 24
+          },
+          "Branches": []
+        },
+        "System.Int32 Elevator.Model.Entities.ControlPanel::get_NumberOfFloors()": {
+          "Lines": {
+            "9": 18
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Elevator.Model.Entities.Request> Elevator.Model.Entities.ControlPanel::get_Requests()": {
+          "Lines": {
+            "10": 84
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\felix\\source\\repos\\Elevator\\Elevator.Model\\Entities\\Elevator.cs": {
+      "Elevator.Model.Entities.Elevator": {
+        "System.Boolean Elevator.Model.Entities.Elevator::get_DoorsOpened()": {
+          "Lines": {
+            "9": 36
+          },
+          "Branches": []
+        },
+        "System.Int32 Elevator.Model.Entities.Elevator::get_MaxNumberOfPersons()": {
+          "Lines": {
+            "11": 10
+          },
+          "Branches": []
+        },
+        "System.Void Elevator.Model.Entities.Elevator::CloseDoors()": {
+          "Lines": {
+            "13": 11
+          },
+          "Branches": []
+        },
+        "System.Void Elevator.Model.Entities.Elevator::OpenDoors()": {
+          "Lines": {
+            "15": 11
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\felix\\source\\repos\\Elevator\\Elevator.Model\\Entities\\Request.cs": {
+      "Elevator.Model.Entities.Request": {
+        "Elevator.Model.Entities.Direction Elevator.Model.Entities.Request::get_Direction()": {
+          "Lines": {
+            "5": 81
+          },
+          "Branches": []
+        },
+        "System.Int32 Elevator.Model.Entities.Request::get_FloorNumber()": {
+          "Lines": {
+            "6": 41
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Elevator.Service.dll": {
+    "C:\\Users\\felix\\source\\repos\\Elevator\\Elevator.Service\\ControlPanelService.cs": {
+      "Elevator.Service.ControlPanelService": {
+        "System.Void Elevator.Service.ControlPanelService::ReceiveRequest(Elevator.Model.Entities.Request)": {
+          "Lines": {
+            "21": 15
+          },
+          "Branches": []
+        },
+        "System.Void Elevator.Service.ControlPanelService::DispatchRequests()": {
+          "Lines": {
+            "24": 5,
+            "25": 14,
+            "26": 9,
+            "27": 9,
+            "28": 9,
+            "29": 9,
+            "31": 23,
+            "32": 56,
+            "33": 56,
+            "34": 23,
+            "35": 4,
+            "36": 4,
+            "37": 4,
+            "38": 4,
+            "39": 23,
+            "40": 12,
+            "41": 12,
+            "42": 12,
+            "43": 23,
+            "44": 10,
+            "45": 10,
+            "46": 10,
+            "49": 46,
+            "50": 9,
+            "51": 9,
+            "52": 5,
+            "53": 5
+          },
+          "Branches": [
+            {
+              "Line": 25,
+              "Offset": 264,
+              "EndOffset": 6,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 9
+            },
+            {
+              "Line": 49,
+              "Offset": 232,
+              "EndOffset": 73,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 23
+            },
+            {
+              "Line": 32,
+              "Offset": 87,
+              "EndOffset": 89,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 26
+            },
+            {
+              "Line": 32,
+              "Offset": 87,
+              "EndOffset": 111,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 39
+            },
+            {
+              "Line": 34,
+              "Offset": 133,
+              "EndOffset": 135,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 4
+            },
+            {
+              "Line": 34,
+              "Offset": 133,
+              "EndOffset": 152,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 23
+            },
+            {
+              "Line": 39,
+              "Offset": 170,
+              "EndOffset": 172,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 12
+            },
+            {
+              "Line": 39,
+              "Offset": 170,
+              "EndOffset": 181,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 23
+            },
+            {
+              "Line": 43,
+              "Offset": 199,
+              "EndOffset": 201,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 10
+            },
+            {
+              "Line": 43,
+              "Offset": 199,
+              "EndOffset": 210,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 23
+            },
+            {
+              "Line": 49,
+              "Offset": 232,
+              "EndOffset": 237,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 9
+            },
+            {
+              "Line": 25,
+              "Offset": 264,
+              "EndOffset": 269,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 5
+            }
+          ]
+        },
+        "System.Void Elevator.Service.ControlPanelService::PurgeRequests(System.Collections.Generic.List`1<Elevator.Model.Entities.Request>)": {
+          "Lines": {
+            "56": 4,
+            "57": 20,
+            "58": 4,
+            "59": 4,
+            "60": 8,
+            "61": 4
+          },
+          "Branches": [
+            {
+              "Line": 57,
+              "Offset": 41,
+              "EndOffset": 11,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 4
+            },
+            {
+              "Line": 57,
+              "Offset": 41,
+              "EndOffset": 43,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 4
+            }
+          ]
+        },
+        "System.Void Elevator.Service.ControlPanelService::StopElevator()": {
+          "Lines": {
+            "64": 9,
+            "65": 9,
+            "66": 9,
+            "68": 9,
+            "69": 9
+          },
+          "Branches": []
+        },
+        "System.Void Elevator.Service.ControlPanelService::MoveElevatorDownwards()": {
+          "Lines": {
+            "72": 10,
+            "73": 10,
+            "74": 10,
+            "75": 10,
+            "76": 10,
+            "77": 10,
+            "78": 10
+          },
+          "Branches": [
+            {
+              "Line": 73,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 10
+            },
+            {
+              "Line": 73,
+              "Offset": 12,
+              "EndOffset": 39,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 10
+            }
+          ]
+        },
+        "System.Void Elevator.Service.ControlPanelService::MoveElevatorUpwards()": {
+          "Lines": {
+            "81": 12,
+            "82": 24,
+            "83": 12,
+            "84": 12,
+            "85": 12,
+            "86": 12
+          },
+          "Branches": [
+            {
+              "Line": 82,
+              "Offset": 17,
+              "EndOffset": 19,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 12
+            },
+            {
+              "Line": 82,
+              "Offset": 17,
+              "EndOffset": 44,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 12
+            }
+          ]
+        },
+        "System.Void Elevator.Service.ControlPanelService::TurnOff()": {
+          "Lines": {
+            "89": 0,
+            "91": 0,
+            "93": 0
+          },
+          "Branches": []
+        },
+        "System.Void Elevator.Service.ControlPanelService::TurnOn()": {
+          "Lines": {
+            "97": 0,
+            "100": 0,
+            "101": 0
+          },
+          "Branches": []
+        },
+        "System.Void Elevator.Service.ControlPanelService::.ctor(Elevator.Model.IElevator,System.Int32,System.Int32,Elevator.Model.Entities.Direction)": {
+          "Lines": {
+            "9": 6,
+            "10": 6,
+            "11": 6,
+            "12": 6,
+            "13": 6,
+            "14": 6,
+            "15": 6,
+            "16": 6,
+            "17": 6,
+            "18": 6,
+            "19": 6,
+            "20": 6
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

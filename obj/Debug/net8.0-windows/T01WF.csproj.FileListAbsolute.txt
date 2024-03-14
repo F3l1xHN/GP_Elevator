@@ -1,0 +1,14 @@
+C:\Users\felix\source\repos\T01WF\bin\Debug\net8.0-windows\T01WF.exe
+C:\Users\felix\source\repos\T01WF\bin\Debug\net8.0-windows\T01WF.deps.json
+C:\Users\felix\source\repos\T01WF\bin\Debug\net8.0-windows\T01WF.runtimeconfig.json
+C:\Users\felix\source\repos\T01WF\bin\Debug\net8.0-windows\T01WF.dll
+C:\Users\felix\source\repos\T01WF\bin\Debug\net8.0-windows\T01WF.pdb
+C:\Users\felix\source\repos\T01WF\obj\Debug\net8.0-windows\T01WF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felix\source\repos\T01WF\obj\Debug\net8.0-windows\T01WF.AssemblyInfoInputs.cache
+C:\Users\felix\source\repos\T01WF\obj\Debug\net8.0-windows\T01WF.AssemblyInfo.cs
+C:\Users\felix\source\repos\T01WF\obj\Debug\net8.0-windows\T01WF.csproj.CoreCompileInputs.cache
+C:\Users\felix\source\repos\T01WF\obj\Debug\net8.0-windows\T01WF.dll
+C:\Users\felix\source\repos\T01WF\obj\Debug\net8.0-windows\refint\T01WF.dll
+C:\Users\felix\source\repos\T01WF\obj\Debug\net8.0-windows\T01WF.pdb
+C:\Users\felix\source\repos\T01WF\obj\Debug\net8.0-windows\T01WF.genruntimeconfig.cache
+C:\Users\felix\source\repos\T01WF\obj\Debug\net8.0-windows\ref\T01WF.dll

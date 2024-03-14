@@ -1,0 +1,17 @@
+C:\Users\felix\source\repos\Elevator\bin\Debug\net8.0-windows\Elevator.Presentation.exe
+C:\Users\felix\source\repos\Elevator\bin\Debug\net8.0-windows\Elevator.Presentation.deps.json
+C:\Users\felix\source\repos\Elevator\bin\Debug\net8.0-windows\Elevator.Presentation.runtimeconfig.json
+C:\Users\felix\source\repos\Elevator\bin\Debug\net8.0-windows\Elevator.Presentation.dll
+C:\Users\felix\source\repos\Elevator\bin\Debug\net8.0-windows\Elevator.Presentation.pdb
+C:\Users\felix\source\repos\Elevator\obj\Debug\net8.0-windows\T01WF.Form1.resources
+C:\Users\felix\source\repos\Elevator\obj\Debug\net8.0-windows\Elevator.Presentation.csproj.GenerateResource.cache
+C:\Users\felix\source\repos\Elevator\obj\Debug\net8.0-windows\Elevator.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felix\source\repos\Elevator\obj\Debug\net8.0-windows\Elevator.Presentation.AssemblyInfoInputs.cache
+C:\Users\felix\source\repos\Elevator\obj\Debug\net8.0-windows\Elevator.Presentation.AssemblyInfo.cs
+C:\Users\felix\source\repos\Elevator\obj\Debug\net8.0-windows\Elevator.Presentation.csproj.CoreCompileInputs.cache
+C:\Users\felix\source\repos\Elevator\obj\Debug\net8.0-windows\Elevator.Presentation.sourcelink.json
+C:\Users\felix\source\repos\Elevator\obj\Debug\net8.0-windows\Elevator.Presentation.dll
+C:\Users\felix\source\repos\Elevator\obj\Debug\net8.0-windows\refint\Elevator.Presentation.dll
+C:\Users\felix\source\repos\Elevator\obj\Debug\net8.0-windows\Elevator.Presentation.pdb
+C:\Users\felix\source\repos\Elevator\obj\Debug\net8.0-windows\Elevator.Presentation.genruntimeconfig.cache
+C:\Users\felix\source\repos\Elevator\obj\Debug\net8.0-windows\ref\Elevator.Presentation.dll

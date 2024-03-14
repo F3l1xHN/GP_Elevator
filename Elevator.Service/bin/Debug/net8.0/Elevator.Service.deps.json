@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Elevator.Service/1.0.0": {
+        "dependencies": {
+          "Elevator.Model": "1.0.0"
+        },
+        "runtime": {
+          "Elevator.Service.dll": {}
+        }
+      },
+      "Elevator.Model/1.0.0": {
+        "runtime": {
+          "Elevator.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Elevator.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Elevator.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

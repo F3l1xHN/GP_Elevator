@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.9268000000000001" branch-rate="1" version="1.9" timestamp="1710441931" lines-covered="76" lines-valid="82" branches-covered="18" branches-valid="18">
+  <sources>
+    <source>C:\Users\felix\source\repos\Elevator\</source>
+  </sources>
+  <packages>
+    <package name="Elevator.Model" line-rate="1" branch-rate="1" complexity="12">
+      <classes>
+        <class name="Elevator.Model.Entities.ControlPanel" filename="Elevator.Model\Entities\ControlPanel.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="get_CurrentElevatorPosition" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="163" branch="False" />
+              </lines>
+            </method>
+            <method name="get_TargetFloor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="93" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ElevatorDirectionMovement" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="37" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Elevator" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="24" branch="False" />
+              </lines>
+            </method>
+            <method name="get_NumberOfFloors" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="18" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Requests" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="84" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="163" branch="False" />
+            <line number="6" hits="93" branch="False" />
+            <line number="7" hits="37" branch="False" />
+            <line number="8" hits="24" branch="False" />
+            <line number="9" hits="18" branch="False" />
+            <line number="10" hits="84" branch="False" />
+          </lines>
+        </class>
+        <class name="Elevator.Model.Entities.Elevator" filename="Elevator.Model\Entities\Elevator.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_DoorsOpened" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="36" branch="False" />
+              </lines>
+            </method>
+            <method name="get_MaxNumberOfPersons" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="10" branch="False" />
+              </lines>
+            </method>
+            <method name="CloseDoors" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="11" branch="False" />
+              </lines>
+            </method>
+            <method name="OpenDoors" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="11" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="36" branch="False" />
+            <line number="11" hits="10" branch="False" />
+            <line number="13" hits="11" branch="False" />
+            <line number="15" hits="11" branch="False" />
+          </lines>
+        </class>
+        <class name="Elevator.Model.Entities.Request" filename="Elevator.Model\Entities\Request.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Direction" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="81" branch="False" />
+              </lines>
+            </method>
+            <method name="get_FloorNumber" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="41" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="81" branch="False" />
+            <line number="6" hits="41" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Elevator.Service" line-rate="0.9142" branch-rate="1" complexity="23">
+      <classes>
+        <class name="Elevator.Service.ControlPanelService" filename="Elevator.Service\ControlPanelService.cs" line-rate="0.9142" branch-rate="1" complexity="23">
+          <methods>
+            <method name="ReceiveRequest" signature="(Elevator.Model.Entities.Request)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="15" branch="False" />
+              </lines>
+            </method>
+            <method name="DispatchRequests" signature="()" line-rate="1" branch-rate="1" complexity="12">
+              <lines>
+                <line number="24" hits="5" branch="False" />
+                <line number="25" hits="14" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="264" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="26" hits="9" branch="False" />
+                <line number="27" hits="9" branch="False" />
+                <line number="28" hits="9" branch="False" />
+                <line number="29" hits="9" branch="False" />
+                <line number="31" hits="23" branch="False" />
+                <line number="32" hits="56" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="87" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="33" hits="56" branch="False" />
+                <line number="34" hits="23" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="133" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="35" hits="4" branch="False" />
+                <line number="36" hits="4" branch="False" />
+                <line number="37" hits="4" branch="False" />
+                <line number="38" hits="4" branch="False" />
+                <line number="39" hits="23" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="170" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="40" hits="12" branch="False" />
+                <line number="41" hits="12" branch="False" />
+                <line number="42" hits="12" branch="False" />
+                <line number="43" hits="23" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="199" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="44" hits="10" branch="False" />
+                <line number="45" hits="10" branch="False" />
+                <line number="46" hits="10" branch="False" />
+                <line number="49" hits="46" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="232" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="50" hits="9" branch="False" />
+                <line number="51" hits="9" branch="False" />
+                <line number="52" hits="5" branch="False" />
+                <line number="53" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="PurgeRequests" signature="(System.Collections.Generic.List`1&lt;Elevator.Model.Entities.Request&gt;)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="56" hits="4" branch="False" />
+                <line number="57" hits="20" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="41" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="58" hits="4" branch="False" />
+                <line number="59" hits="4" branch="False" />
+                <line number="60" hits="8" branch="False" />
+                <line number="61" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name="StopElevator" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="64" hits="9" branch="False" />
+                <line number="65" hits="9" branch="False" />
+                <line number="66" hits="9" branch="False" />
+                <line number="68" hits="9" branch="False" />
+                <line number="69" hits="9" branch="False" />
+              </lines>
+            </method>
+            <method name="MoveElevatorDownwards" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="72" hits="10" branch="False" />
+                <line number="73" hits="10" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="12" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="74" hits="10" branch="False" />
+                <line number="75" hits="10" branch="False" />
+                <line number="76" hits="10" branch="False" />
+                <line number="77" hits="10" branch="False" />
+                <line number="78" hits="10" branch="False" />
+              </lines>
+            </method>
+            <method name="MoveElevatorUpwards" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="81" hits="12" branch="False" />
+                <line number="82" hits="24" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="17" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="83" hits="12" branch="False" />
+                <line number="84" hits="12" branch="False" />
+                <line number="85" hits="12" branch="False" />
+                <line number="86" hits="12" branch="False" />
+              </lines>
+            </method>
+            <method name="TurnOff" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="89" hits="0" branch="False" />
+                <line number="91" hits="0" branch="False" />
+                <line number="93" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="TurnOn" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="97" hits="0" branch="False" />
+                <line number="100" hits="0" branch="False" />
+                <line number="101" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Elevator.Model.IElevator,System.Int32,System.Int32,Elevator.Model.Entities.Direction)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="6" branch="False" />
+                <line number="10" hits="6" branch="False" />
+                <line number="11" hits="6" branch="False" />
+                <line number="12" hits="6" branch="False" />
+                <line number="13" hits="6" branch="False" />
+                <line number="14" hits="6" branch="False" />
+                <line number="15" hits="6" branch="False" />
+                <line number="16" hits="6" branch="False" />
+                <line number="17" hits="6" branch="False" />
+                <line number="18" hits="6" branch="False" />
+                <line number="19" hits="6" branch="False" />
+                <line number="20" hits="6" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="21" hits="15" branch="False" />
+            <line number="24" hits="5" branch="False" />
+            <line number="25" hits="14" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="264" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="26" hits="9" branch="False" />
+            <line number="27" hits="9" branch="False" />
+            <line number="28" hits="9" branch="False" />
+            <line number="29" hits="9" branch="False" />
+            <line number="31" hits="23" branch="False" />
+            <line number="32" hits="56" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="87" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="33" hits="56" branch="False" />
+            <line number="34" hits="23" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="133" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="35" hits="4" branch="False" />
+            <line number="36" hits="4" branch="False" />
+            <line number="37" hits="4" branch="False" />
+            <line number="38" hits="4" branch="False" />
+            <line number="39" hits="23" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="170" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="40" hits="12" branch="False" />
+            <line number="41" hits="12" branch="False" />
+            <line number="42" hits="12" branch="False" />
+            <line number="43" hits="23" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="199" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="44" hits="10" branch="False" />
+            <line number="45" hits="10" branch="False" />
+            <line number="46" hits="10" branch="False" />
+            <line number="49" hits="46" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="232" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="50" hits="9" branch="False" />
+            <line number="51" hits="9" branch="False" />
+            <line number="52" hits="5" branch="False" />
+            <line number="53" hits="5" branch="False" />
+            <line number="56" hits="4" branch="False" />
+            <line number="57" hits="20" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="41" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="58" hits="4" branch="False" />
+            <line number="59" hits="4" branch="False" />
+            <line number="60" hits="8" branch="False" />
+            <line number="61" hits="4" branch="False" />
+            <line number="64" hits="9" branch="False" />
+            <line number="65" hits="9" branch="False" />
+            <line number="66" hits="9" branch="False" />
+            <line number="68" hits="9" branch="False" />
+            <line number="69" hits="9" branch="False" />
+            <line number="72" hits="10" branch="False" />
+            <line number="73" hits="10" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="12" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="74" hits="10" branch="False" />
+            <line number="75" hits="10" branch="False" />
+            <line number="76" hits="10" branch="False" />
+            <line number="77" hits="10" branch="False" />
+            <line number="78" hits="10" branch="False" />
+            <line number="81" hits="12" branch="False" />
+            <line number="82" hits="24" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="17" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="83" hits="12" branch="False" />
+            <line number="84" hits="12" branch="False" />
+            <line number="85" hits="12" branch="False" />
+            <line number="86" hits="12" branch="False" />
+            <line number="89" hits="0" branch="False" />
+            <line number="91" hits="0" branch="False" />
+            <line number="93" hits="0" branch="False" />
+            <line number="97" hits="0" branch="False" />
+            <line number="100" hits="0" branch="False" />
+            <line number="101" hits="0" branch="False" />
+            <line number="9" hits="6" branch="False" />
+            <line number="10" hits="6" branch="False" />
+            <line number="11" hits="6" branch="False" />
+            <line number="12" hits="6" branch="False" />
+            <line number="13" hits="6" branch="False" />
+            <line number="14" hits="6" branch="False" />
+            <line number="15" hits="6" branch="False" />
+            <line number="16" hits="6" branch="False" />
+            <line number="17" hits="6" branch="False" />
+            <line number="18" hits="6" branch="False" />
+            <line number="19" hits="6" branch="False" />
+            <line number="20" hits="6" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
